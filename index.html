@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment API - $0.001/prediction</title>
+    <style>
+        body { font-family: Arial; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .hero { background: #1e40af; color: white; padding: 40px; text-align: center; }
+        pre { background: #f3f4f6; padding: 20px; border-radius: 8px; overflow-x: auto; }
+        .price { font-size: 2em; color: #10b981; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>🧠 Sentiment Analysis API</h1>
+        <p class="price">$0.001 per prediction</p>
+        <p><strong>3.2ms response time • 24/7 live • Ray Serve</strong></p>
+    </div>
+
+    <h2>🔥 Live Demo</h2>
+    <pre>curl -X POST http://127.0.0.1:8000/ \
+  -H "Content-Type: application/json" \
+  -d '{"text": "I love this API!"}'</pre>
+    
+    <h2>📊 Response</h2>
+    <pre>{
+  "sentiment": "positive",
+  "confidence": 0.92,
+  "status": "LIVE",
+  "pay": "https://buymeacoffee.com/YOURNAME"
+}</pre>
+
+    <h2>💰 Support this API</h2>
+    <p><a href="https://buymeacoffee.com/YOURNAME">Buy me a coffee ☕</a></p>
+    
+    <footer>
+        <p>Built by IT survivor: COBOL → AI | Live since Jan 7, 2026</p>
+    </footer>
+</body>
+</html>
+
